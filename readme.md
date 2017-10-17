@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://cdn.rawgit.com/widget-/slack-black-theme/master/custom.css';
+   const cssPath = 'https://cdn.rawgit.com/ViktorQvarfordt/slack-black-theme/master/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
@@ -124,6 +124,15 @@ Here's some example color variations you might like.
 --text: #FFF;
 --background: #F00;
 --background-elevated: #FF0;
+```
+
+# Dev
+
+Enable chrome developer tools:
+
+```
+export SLACK_DEVELOPER_MENU=true
+./slack.exe
 ```
 
 # License
