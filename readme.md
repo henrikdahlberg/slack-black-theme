@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
       /* Modify these to change your theme colors: */
       --primary: #09F;
       --text: #CCC;
-      --background: #080808;
+      --background: #000;
       --background-elevated: #222;
    }
    `
