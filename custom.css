@@ -693,6 +693,6 @@ li.active {
   border: none;
 }
 
-.day_msgs, .day_container, .message_pane_scroller, #footer_msgs {
-    background: var(--background);
+.day_msgs, .day_container, .message_pane_scroller, #footer_msgs, #channel_topic_text {
+    background-color: var(--background);
 }
