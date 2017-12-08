@@ -6,6 +6,13 @@ A darker, more contrasty, Slack theme.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
 
+# Sidebar
+
+Use the following Sidebar theme string to match with the black theme below
+```
+#000000,#111111,#111111,#FFFFFF,#111111,#FFFFFF,#4EC9B0,#EC2864
+```
+
 # Installing into Slack
 
 Find your Slack's application directory.
@@ -37,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
       --primary: #09F;
       --text: #CCC;
       --background: #000;
-      --background-elevated: #222;
+      --background-elevated: #000;
    }
    `
 
